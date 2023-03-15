@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+}
+
+a{
+    color: white;
+}
+a:visited{
+    color: rgba(193, 193, 193, 0.521);
+}
+a:hover{
+    color: white;
+}
