@@ -81,6 +81,42 @@
 				</tfoot>
 			</table>
 		</article>
+		<article id="contact">
+			<h2>Contact me</h2>
+			<p>I would like to hear from you!</p>
+			<form action="https://httpbin.org/get" method="get">
+				<fieldset>
+					<legend>Personal Info</legend>
+					<p>
+						<label for="firstName">First name:</label>
+						<input type="text" name="firstName" id="firstName" placeholder="First name" autocomplete="on" required>	
+					</p>
+					<p>
+						<label for="lastName">Last name:</label>
+						<input type="text" name="lastName" id="lastName" placeholder="Last name" autocomplete="on" required>
+					</p>
+					<p>
+						<label for="password">Password:</label>
+						<input type="password" name="password" id="password" placeholder="Password" required>
+					</p>
+					<p>
+						<label for="gender">Gender:</label>
+						<select name="gender" id="gender">
+							<option value="male" selected>Male</option>
+							<option value="female">Female</option>
+						</select>
+					</p>
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend>Comment</legend>
+					<label for="comment"></label>
+					<textarea name="comment" id="comment" placeholder="Type your comment here"></textarea>
+				</fieldset>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+		</article>
 	</main>
 	<hr>
 	<footer>
